@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(imagens/background.jpg);
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1 {
+    margin: 25px;
+    font-family: 'Caprasimo';
+    color: #133F1E;
+    font-size: 90px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-family: 'Caprasimo';
+    color: #133F1E;
+    font-size: 35px;
+}
+
+.descricao {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #133F1E;
+    background-color: #3ac71d31;
+    margin: 0;
+}
+
+.conteudo {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #07270f;
+}
+
+.divconteudo {
+    margin: 10px;
+    display: inline-block;
+    background-color: rgba(241, 255, 241, 0.459);
+    padding: 20px;
+    text-align: center;
+    width: 800px;
+}
+
+/* BOTAO */
+/* .botao {
+    margin: 10px;
+    padding: 10px;
+    width: 180px;
+    font-size: 20px;
+    background-color: #1FCC30;
+}
+
+.botao:hover {
+    background: #27FF3D;
+    color: #a72319;
+}
+
+.botao a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #133F1E;
+} */
+
+/*isso facilita na aplicação de estilo em cada barra,
+assim não aplicando um por um*/
+
+/* EDIT: QUE PORRA DE CODIGO É ESSE */
+#inicio #navegacao .inicio a,
+#mitose #navegacao .mitose a,
+#diferencas #navegacao .diferencas a,
+#exemplos #navegacao .exemplos a,
+#fontes #navegacao .fontes a,
+#ds #navegacao .ds a {
+    color: #13801E;
+    background: #27FF3D;
+}
+
+ul {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    padding: 0;
+    list-style: none;
+    width: 1330px;
+    background: #1FCC30;
+    float: left;
+}
+
+ul li {
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    text-decoration: none;
+    color: #133F1E;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover {
+    color: #a72319;
+    background: #27FF3D;
+}
+
+.rodape {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #133F1E;
+    background-color: #1FCC30;
+    padding: 20px;
+}
+
+p a {
+    text-decoration: none;
+    color: #a72319;
+}
+
+p a:hover{
+    color: #5a0a04;
+}
